@@ -1,4 +1,15 @@
-from pprint import pprint
+# #################################################################################################
+# -------------------------------------------------------------------------------------------------
+# File:   examples.py
+# Author: Luis Monteiro
+#
+# Created on jan 6, 2020, 22:00 PM
+# -------------------------------------------------------------------------------------------------
+# #################################################################################################
+from pprint               import pprint
+from gtranslate           import Translator
+from gtranslate.providers import GoogleAPI
+from gtranslate.providers import GoogleBrowser
 
 data = [
     'Amor é fogo que arde sem se ver', 
@@ -18,31 +29,7 @@ data = [
     'Se tão contrário a si é o mesmo Amor?'
 ]
 
-from gtranslate.providers import GoogleAPI
-from gtranslate.providers import GoogleBrowser
-
 provider   = GoogleBrowser()
-translated = provider.translate(data)
-pprint(translated)
-
-translated = provider.translate(data)
-pprint(translated)
-translated = provider.translate(data)
-pprint(translated)
-translated = provider.translate(data)
-pprint(translated)
-translated = provider.translate(data)
-pprint(translated)
-translated = provider.translate(data)
-pprint(translated)
-translated = provider.translate(data)
-pprint(translated)
-translated = provider.translate(data)
-pprint(translated)
-translated = provider.translate(data)
-pprint(translated)
-translated = provider.translate(data)
-pprint(translated)
 translated = provider.translate(data)
 pprint(translated)
 
@@ -50,6 +37,12 @@ provider   = GoogleAPI()
 translated = provider.translate(data)
 pprint(translated)
 
+engine     = Translator()
+translated = engine.translate(data)
+pprint(translated)
 
-
-
+# #################################################################################################
+# -------------------------------------------------------------------------------------------------
+# end
+# -------------------------------------------------------------------------------------------------
+###################################################################################################

@@ -1,0 +1,1 @@
+from .gtranslate import Translator

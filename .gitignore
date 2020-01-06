@@ -1,0 +1,6 @@
+# folders 
+gtranslate.egg-info/*
+build/*
+# files
+*.egg
+*.pyc
