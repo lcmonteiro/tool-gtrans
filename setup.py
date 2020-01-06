@@ -1,27 +1,48 @@
+# #################################################################################################
+# -------------------------------------------------------------------------------------------------
+# File:   setup.py
+# Author: Luis Monteiro
+#
+# Created on jan 6, 2020, 22:00 PM
+# -------------------------------------------------------------------------------------------------
+# #################################################################################################
 from setuptools import setup, find_packages
-from os.path import join, dirname
 
+# -----------------------------------------------------------------------------
+# helpers
+# -----------------------------------------------------------------------------
+with open('README.md', 'r') as fh:
+    long_description = fh.read()
 
+# -----------------------------------------------------------------------------
+# setup
+# -----------------------------------------------------------------------------
 setup(
-    name='gtrans',
+    name='gtranslate',
     version='0.1',
     description='Free Google Translate API service',
-    keywords='google translate api free python gtrans',
-    url='https://github.com/sergei4e/gtrans',
+    keywords='google translate api free python gtranslate',
+    url='https://github.com/lcmonteiro/tool-gtranslate',
     author='Luis Monteiro',
     author_email='monteiro.lcm@gmail.com',
     license='MIT',
-    # classifiers=[
-    #     'License :: OSI Approved :: MIT License',
-    #     'Intended Audience :: Developers',
-    #     'Programming Language :: Python :: 3.6',
-    #     'Environment :: Web Environment',
-    #     'Development Status :: 3 - Alpha',
-    # ],
+    classifiers=[
+        'License :: MIT License',
+        'Intended Audience :: Developers',
+        'Programming Language :: Python :: 3.6',
+        'Development Status :: 3 - Alpha',
+    ],
     packages=find_packages(),
-    #long_description=open(join(dirname(__file__), 'README.rst')).read(),
+    long_description=long_description,
     install_requires=[
-         'selenium'
+         'selenium',
+         'googletrans',
+         'chromedriver-binary==79.0.3945.36.0'
     ],
     include_package_data=True,
 )
+# #################################################################################################
+# -------------------------------------------------------------------------------------------------
+# end
+# -------------------------------------------------------------------------------------------------
+###################################################################################################

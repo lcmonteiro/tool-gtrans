@@ -14,11 +14,11 @@ from time     import sleep, time
 # GoogleAPI 
 # -------------------------------------------------------------------------------------------------
 class GoogleBrowser:
-    __ENDL = '<endl>'
-    __ENDS = '<ends>'
+    __ENDL = '<+++>'
+    __ENDS = '<###>'
 
     def __init__(self, to_lang='en', from_lang=None):
-        self.__from   = from_lang if not None else 'auto'
+        self.__from   = from_lang if from_lang is not None else 'auto'
         self.__to     = to_lang 
         self.__engine = self.__engine(self.__from, self.__to)
 

@@ -6,7 +6,7 @@ Free Google Translate API. It works with tow providers Google API and Browser (c
 
 Requerements:
 -------------
-* Python 3.6 >
+* Python 3.6 
 
 
 Features
@@ -34,5 +34,4 @@ Output
 
 Author
 ------
-
-`Luis Monteiro <https://www.linkedin.com/in/sergey-chernenko/>`
+[Luis Monteiro @ linkdin](<https://www.linkedin.com/in/luis-monteiro-918a3033/>)
