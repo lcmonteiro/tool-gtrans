@@ -46,8 +46,8 @@ class GoogleBrowser:
         options.add_argument("--no-sandbox")
         options.add_argument("--disable-notifications")
         # open driver
-        #driver = webdriver.Chrome(options=options)
-        driver = webdriver.Chrome()
+        driver = webdriver.Chrome(options=options)
+        #driver = webdriver.Chrome()
         driver.get(f'http://translate.google.com/#{from_lang}/{to_lang}/')
         return driver
 

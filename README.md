@@ -1,7 +1,7 @@
 gtranslate
 ==========
 
-Free Google Translate API. It works with tow providers Google API and Browser (chrome).
+Free Google Translate API. It works with two providers Google API and Browser (chrome).
 
 
 Requerements:
