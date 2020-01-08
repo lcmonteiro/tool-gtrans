@@ -4,7 +4,7 @@ gtranslate
 Free Google Translate API. It works with two providers Google API and Browser (chrome).
 
 
-Requerements:
+Requirements:
 -------------
 - python 3.6 > 
 - slenium
