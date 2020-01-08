@@ -38,7 +38,7 @@ setup(
         'gtranslate.providers'
     ],
     package_data={
-        'translatex.providers': ['uagents.txt']
+        'gtranslate.providers': ['uagents.txt']
     },
     install_requires=[
          'selenium',
