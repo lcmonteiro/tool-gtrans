@@ -12,7 +12,6 @@ from gtranslate.providers import GoogleAPI
 from gtranslate.providers import GoogleBrowser
 
 data = [
-    'Amor é fogo que arde sem se ver', 
     'Amor é fogo que arde sem se ver;', 
     'É ferida que dói e não se sente;', 
     'É um contentamento descontente;', 
